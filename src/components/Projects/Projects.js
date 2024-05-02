@@ -7,7 +7,8 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import crimson from "../../Assets/Projects/crimson.png"
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import sudoku from "../../Assets/Projects/sudoku.png";
+import beetle from "../../Assets/Projects/beetle.jpg"
 
 function Projects() {
   return (
@@ -34,23 +35,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={beetle}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Beetle Task Manager"
+              description="A website made by Django. Core functionality is task manager inspired by Trello Board, team members can create team, invite members by email, and assign, update, archieve, track, remove and get info from the task (Temporarily stop maintance due to pythonanywhere deployment)"
+              ghLink="https://github.com/ahmettrkck/beetle.git"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={sudoku}
               isBlog={false}
-              title="Editor.io"
+              title="Sudoku Solver"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/5CCS2PEP/assignment2023cpp-RickSanchez88E"
+              /*demoLink="https://editor.soumya-jit.tech/"  */
             />
           </Col>
 
