@@ -351,8 +351,13 @@ button:focus {
 }
 
 .home-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
   position: relative !important;
-  display: inline-block !important;
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
