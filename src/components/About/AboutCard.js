@@ -27,6 +27,9 @@ function AboutCard() {
             <li className="about-activity">
               ✈️ Travelling
             </li>
+            <li className="about-activity">
+              🥊 Boxing
+            </li>
           </ul>
         </blockquote>
       </Card.Body>
